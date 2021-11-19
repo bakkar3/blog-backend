@@ -11,6 +11,8 @@ const commentRouter = express.Router()
 
 
 
+
+
 // prefix route /blogs
 commentRouter.get("/", (req, res) => {
   res.json( comments )
